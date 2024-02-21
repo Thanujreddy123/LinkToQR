@@ -1,6 +1,6 @@
 # LinkToQR Web Application
 
-LinkToQR is a simple web application designed to convert URLs or text into QR codes. The application consists of a single HTML file named "RealQrGenerator."
+LinkToQR is a simple web application designed to convert URLs or text into QR codes. The application consists of a single HTML file named "index.html"
 
 ## Features:
 
@@ -10,6 +10,6 @@ LinkToQR is a simple web application designed to convert URLs or text into QR co
 
 ## How to Use:
 
-1. Open the "RealQrGenerator" HTML file in your web browser.
+1. Open the "index.html" file in your web browser.
 2. Enter the desired URL or text in the provided input field.
 3. Click the "Generate QR Code" button.
