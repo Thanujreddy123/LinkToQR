@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>QRCode</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="device-width,initial-scale=1.0">
+        <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+        <style>
+            #qrcode{
+                margin: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>This is the qr code generator</h1>
+        <input type="text" placeholder="Text" id="maintext">
+        <button type="submit" onclick="Qrgenerator()">Submit</button>
+        <br>
+        <div id="qrcode"></div>
+        <script>
+            function Qrgenerator(){
+                var text=document.getElementById("maintext").value;
+                if(text){
+                var vr=new QRCode(document.getElementById("qrcode"),{text,height:100,width:100})}
+                else{
+                    document.getElementById("qrcode").innerHTML="there is no text"
+                }
+            }
+        </script>
+    </body>
+</html>
